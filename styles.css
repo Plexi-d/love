@@ -50,9 +50,10 @@ h1 {
 }
 
 img {
-    width: 100%;
+    width: 70%;
     height: auto;
-    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Рамка вокруг изображения */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 section h2 {
