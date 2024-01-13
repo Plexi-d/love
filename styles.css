@@ -95,6 +95,7 @@ section p {
     width: 100%;
     font-family: 'FF Meta Serif', serif;
     margin-bottom: 1em; /* добавляет отступ снизу каждого параграфа */
+    text-align: justify;
 }
 
 footer p {
