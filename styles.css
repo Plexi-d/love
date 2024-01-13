@@ -72,7 +72,7 @@ h1 {
     /* Дополнительные стили, если нужно */
 }
 
-img {
+main img {
     width: 70%;
     height: auto;
     border: 1px solid #ccc; /* Рамка вокруг изображения */
