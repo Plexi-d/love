@@ -42,9 +42,11 @@ main {
 }
 
 h1 {
-    font-size: 16px;
-    font-weight: normal;
-    margin: 10px 0;
+    font-size: 36px; /* Большой размер шрифта */
+    font-weight: bold; /* Жирный шрифт */
+    text-align: center; /* Выравнивание по центру */
+    color: #000000; /* Цвет текста, например, черный */
+    /* Дополнительные стили, если нужно */
 }
 
 img {
