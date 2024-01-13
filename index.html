@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+    <
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,5 +37,36 @@
             <p>Автор</p>
         </footer>
     </main>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+    // Индекс текущего изображения
+    var currentIndex = 0;
+    // Массив с путями к изображениям
+    var images = ['image1.jpg', 'image2.jpg', 'image3.jpg']; // Замените этот массив на свои изображения
+
+    // Функция для смены на предыдущее изображение
+    function showPreviousImage() {
+        currentIndex = (currentIndex > 0) ? currentIndex - 1 : images.length - 1;
+        updateImage();
+    }
+
+    // Функция для смены на следующее изображение
+    function showNextImage() {
+        currentIndex = (currentIndex < images.length - 1) ? currentIndex + 1 : 0;
+        updateImage();
+    }
+
+    // Обновление источника изображения
+    function updateImage() {
+        var image = document.getElementById('slider-image');
+        image.src = images[currentIndex];
+    }
+
+    // Подключение обработчиков событий к кнопкам
+    document.getElementById('left-arrow').addEventListener('click', showPreviousImage);
+    document.getElementById('right-arrow').addEventListener('click', showNextImage);
+});
+
+    </script>
 </body>
 </html>
