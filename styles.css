@@ -51,10 +51,9 @@ header {
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
+    text-align: center;
+    padding: 10px 0;
     background-color: #e0e0e0;
-    padding: 10px;
 }
 
 .nav-link {
