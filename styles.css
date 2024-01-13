@@ -21,6 +21,29 @@ header {
     font-weight: bold;
 }
 
+.image-slider {
+    position: relative;
+    text-align: center;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.left-arrow {
+    left: 10px;
+}
+
+.right-arrow {
+    right: 10px;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
